@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <!-- <link rel="stylesheet" href="./styles/styles.css" /> -->
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__nav">
+          <a href="">
+            <svg class="icon__film" width="24" height="24">
+              <use xlink:href="./image/icons/icons.svg#film"></use>
+            </svg>
+            <span class="span__film">Filmoteka</span>
+          </a>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li><a class="nav__link current" href="./index.html">HOME</a></li>
+              <li><a class="nav__link" href="">MY LIBRARY</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="search">
+       <form class="search__form" id="search-form">
+      <input
+        type="text"
+        class="form-field"
+        name="searchQuery"
+        autocomplete="off"
+        placeholder="Movie search"
+      />
+      <label for="">
+        <input type="submit"/>
+        <svg class="icon__film"  width="24" height="24">
+          <use xlink:href="./image/icons/icons.svg#search"></use>
+        </svg>
+      </label>
+    </form>
+        </a>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>

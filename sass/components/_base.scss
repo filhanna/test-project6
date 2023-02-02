@@ -1,0 +1,71 @@
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+form {
+  display: block;
+}
+
+button,
+
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+input{
+  outline: none;
+    border: none;
+    background: none;
+   
+}
+
+.container {
+  
+  margin-left: auto;
+  margin-right: auto;
+
+  @include mobile() {
+    max-width: 480px;
+  }
+
+  @include tablet() {
+    max-width: 768px;
+  }
+
+  @include desktop() {
+    width: 1200px;
+  }
+}
+body{
+  margin: 0;
+}
